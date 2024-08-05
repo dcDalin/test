@@ -1,8 +1,6 @@
 import React from "react";
 
 function Transaction(props) {
-  console.log(props.transactions);
-
   if (props.loading)
     return (
       <tr>
